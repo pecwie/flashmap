@@ -10,10 +10,11 @@
 
 -   Free software: MIT License
 -   Documentation: https://pecwie.github.io/flashmap
-    
+
 
 ## Features
 
 -   This will be an extrx package
 -   Tailored for geospatial specialists
 -   Soon!
+-   very soon!
