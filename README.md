@@ -10,7 +10,7 @@
 
 -   Free software: MIT License
 -   Documentation: https://pecwie.github.io/flashmap
-    
+
 
 ## Features
 
