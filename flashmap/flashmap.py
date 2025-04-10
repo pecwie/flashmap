@@ -126,9 +126,9 @@ class FoliumMap:
         data = gpd.read_file(url)
         geojson = folium.GeoJson(data, name="GeoJSON").add_to(self.map)
 
-        if zoom_to_layer:
-            bounds = data.total_bounds  # [minx, miny, maxx, maxy]
-            self.map.fit_bounds([[bounds[1], bounds[0]], [bounds[3], bounds[2]]])
+        # if zoom_to_layer:
+        #     bounds = data.total_bounds  # [minx, miny, maxx, maxy]
+        #     self.map.fit_bounds([[bounds[1], bounds[0]], [bounds[3], bounds[2]]])
 
     def add_shp(self, filepath):
         """
