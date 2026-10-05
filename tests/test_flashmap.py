@@ -2,7 +2,6 @@
 
 """Tests for `flashmap` package."""
 
-
 import unittest
 
 from flashmap import flashmap
